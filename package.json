@@ -1,0 +1,26 @@
+{
+  "name": "copy_component",
+  "version": "1.0.0",
+  "description": "module which creates needed amount of copies of passed component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iron66/copy_component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iron66/copy_component/issues"
+  },
+  "homepage": "https://github.com/iron66/copy_component#readme",
+  "author": "Pavel Rybalov",
+  "license": "MIT License",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4"
+  }
+}
